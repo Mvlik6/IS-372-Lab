@@ -1,0 +1,163 @@
+from platform import python_version
+print(python_version())
+
+
+# Lab_2.py
+'''
+This is the file header.
+the header constains basic information about the file.
+'''
+if __name__ == "__main__":
+    pass # 'pass' is a temporary placeholder.
+help(print)
+
+
+
+
+if __name__ == "__main__":
+    print("Hello, world!") # Indent with four spaces (NOT a tab).
+
+
+
+x,y = 4,3
+z=x+y
+print(z**2)
+
+
+
+
+def Func (x , y):
+    if x==1:
+        x=0
+z=x+y        
+Func(1,6)
+print(z)
+
+
+
+def comp(x,y):
+    return x==y
+comp(5,5)
+
+
+
+
+
+
+def sphere_volume(r):
+    pi=3.1415
+    v=4/3 * pi * r **3
+    return v
+if __name__ == "__main__":
+    volume = sphere_volume(5)
+    print(volume)
+    
+
+
+
+def information (course,Professor,level='8'):   #='8' on level to set default
+    print (course + ' is in ' + level + ' which is delivered by ' + professor)
+if __name__ == "__main__":
+    course = "IS-372 DM&DW"
+    professor="A/Prof. Mohammed Al-Sarem"
+    information(course,professor)
+
+
+
+Course_name='IS-372 DM&DW'
+print(Course_name[2])
+
+
+
+my_list = ["Hello",93.8,"World",10]
+my_list[:2]
+
+
+
+Course_name='IS-372 DM&DW'
+print(Course_name[-1])
+
+
+
+Course_name='IS-372 DM&DW'
+print(Course_name[:6])
+
+
+
+Course_name='IS-372 DM&DW'
+print(Course_name[:5])
+
+
+
+list = [1, 2]
+list.append(4)
+print(list)
+
+
+
+
+list.insert(2,3)
+print(list)
+
+
+
+
+list.remove(3)
+print(list)
+
+
+
+
+list.pop()
+print(list)
+
+
+
+
+list1 = ["bear", "ant", "cat", "dog"]
+list1.append("eagle")
+
+print(list1)
+
+
+
+list1 = ["bear", "ant", "cat", "dog"]
+list1[2]='fox'
+
+print(list1)
+
+
+
+list1 = ["bear", "ant", "cat", "dog"]
+list1.pop(1)
+
+
+print(list1)
+
+
+
+list1 = ["bear", "ant", "cat", "dog"]
+list1.sort(reverse=True)
+
+
+print(list1)
+
+
+
+
+list1 = ["bear", "ant", "cat", "dog"]
+list1.insert(4,'hawk')
+
+
+print(list1)
+
+
+
+
+s = "stab"
+for i in range(len(s)):  print (s[0 : i : 1])
+
+
+
+
+
